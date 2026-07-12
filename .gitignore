@@ -21,3 +21,5 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+#C编译执行文件
+*.exe
