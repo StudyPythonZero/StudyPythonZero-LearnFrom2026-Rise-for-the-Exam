@@ -39,3 +39,29 @@ pip3 --version
 python --version
 pip --version
 ```
+
+## 创建虚拟环境
+
+### 安装venv
+
+```linux
+sudo apt install python3.14-venv // 参考自己的python版本号
+```
+
+### 进入工程文件夹
+
+```linux
+cd ~/game_ai // 进入你的项目文件夹（假设叫 game_ai）
+```
+
+## 创建环境
+
+```linux
+python3 -m venv venv
+```
+
+### 激活环境
+
+```linux
+source venv/bin/activate
+```
